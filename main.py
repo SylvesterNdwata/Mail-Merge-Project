@@ -12,5 +12,5 @@ for person in stripped_names_list:
         letter_content = letter.read()
     letter_content = letter_content.replace("[name]", person)
     #open(rf"C:\Users\ndwat\OneDrive\python\PycharmProjects\Mail Merge Project Start\Output\ReadyToSend\Letter for {person}.txt")
-    with open(rf"C:\Users\ndwat\OneDrive\python\PycharmProjects\Mail Merge Project Start\Output\ReadyToSend\Letter for {person}.txt", "w") as namefile:
+    with open(rf"C:\Users\ndwat\OneDrive\python\PycharmProjects\Mail Merge Project Start\Output\ReadyToSend\Letter for {person}.docx", "w") as namefile:
         namefile.write(letter_content)
